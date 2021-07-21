@@ -1,0 +1,108 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+.banner-desc{
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 300px;
+}
+.banner-right{
+    background-color: #000;
+    border: 1px solid #000;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.banner-right img{
+    height: 440px;
+    width: 440px;
+}
+.banner-left{
+    background-color: hsl(244, 38%, 16%);
+    height: 445px;
+    width: 500px;
+    border: 1px solid hsl(244, 38%, 16%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.banner-left-title{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.banner-numbers h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.banner-left-desc,
+.banner-numbers h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.banner-left-title a{
+    text-decoration: none;
+}
+.banner-left{
+    color: #FFF;
+}
+.banner-left-title h1{
+    font-size: 28px;
+    margin: 50px 80px;
+}
+.banner-left-desc h3{
+    font-size: 15px;
+    margin: 50px 80px;
+    line-height: 25px;
+}
+.banner-numbers{
+    display: flex;
+    margin: 0 70px;
+}
+.banner-numbers h2{
+    font-size: 10px;
+    margin-top: -12px;
+}
+.banner-10k,
+.banner-314,
+.banner-12m{
+    margin:10px 20px;
+}
+
+@media (max-width: 450px){
+    .banner-desc{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .banner-left{
+        max-width: 330px;
+        margin-bottom: 10px;
+        height: 580px;
+    }
+    .banner-left-title h1{
+        font-size: 18px;
+    }
+    .banner-right img{
+        width: 330px;
+        height: 330px;
+    }
+    .banner-left-desc h3{
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .banner-numbers{
+        flex-direction: column;
+        margin: 10px 100px;
+    }
+    .banner-numbers h1{
+        font-size: 15px;
+    }
+    .banner-numbers h2{
+        font-size: 10px;
+    }
+    .banner-10k,
+    .banner-12m,
+    .banner-314{
+        margin-bottom: 5px;
+    }
+}
